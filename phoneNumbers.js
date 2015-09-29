@@ -1,1 +1,4 @@
-test
+function oper(nomer){
+    
+    return oper;
+}
