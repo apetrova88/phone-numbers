@@ -1,6 +1,5 @@
+var a = 80931111111;
 function detectOperator(a){
-    a = 80931111111;
-    console.log(String(a).substr(1, 3));
     var op="no info";
     if (String(a).substr(1,3) === "039") return "Golden Telecom";
     if (String(a).substr(1,3) === "063" || String(a).substr(1,3) === "093") return "Life:)";
@@ -9,3 +8,4 @@ function detectOperator(a){
     if (String(a).substr(1,3) === "068") return "Beeline";
     else return op;
 }
+console.log(detectOperator(a));
