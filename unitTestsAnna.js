@@ -22,3 +22,4 @@ test("test detectOperator()", function() {
     strictEqual(detectOperator("8AAA1111111") , "no info", 'checking "no info": mix');
 
 });
+//test
