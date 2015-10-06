@@ -8,5 +8,6 @@ function detectOperator(a){
     if (String(a).substr(1,3) === "068") return "Beeline";
     else return op;
    // измениния
+    //test
 }
 console.log(detectOperator(a));
