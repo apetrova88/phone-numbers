@@ -7,6 +7,6 @@ function detectOperator(a){
     if (String(a).substr(1,3) === "067" || String(a).substr(1,3) === "096" || String(a).substr(1,3) === "097" || String(a).substr(1,3) === "098") return "Kyivstar";
     if (String(a).substr(1,3) === "068") return "Beeline";
     else return op;
-   // измениния
+   // измениния!!!!!!!!!!!!!!
 }
 console.log(detectOperator(a));
